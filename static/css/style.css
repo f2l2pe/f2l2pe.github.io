@@ -1,0 +1,74 @@
+@import "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/github.min.css";
+
+@font-face {
+    font-family: ErodeRegular;
+    src: url(/static/fonts/Erode-Variable.ttf) format('truetype');
+    font-weight: 500;
+}
+
+:root {
+    font-family: 'ErodeRegular', serif;
+    font-size: 18px;
+}
+
+body {
+    max-width: 720px;
+    margin: 2em auto;
+}
+
+main {
+    display: flex;
+}
+
+main div {
+    width: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+code {
+    border: 1px solid lightgray;
+}
+
+article {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 1rem;
+}
+
+
+.social-links {
+    border-left: 1px solid black;
+    padding-left: 1rem;
+}
+
+.social-links p {
+    width: 100%;
+    text-align: center;
+}
+
+.social-links dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: .2rem 1rem;
+    margin-top: 0;
+}
+
+.social-links dl dt {
+    grid-column-start: 1;
+}
+
+.social-links dl dd {
+    grid-column-start: 2;
+    margin-left: 0;
+}
